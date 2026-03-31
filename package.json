@@ -1,0 +1,24 @@
+{
+  "name": "remotion-claude",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "keywords": [],
+  "scripts": {
+    "build": "npx remotion render",
+    "deploy": "npx remotion lambda deploy",
+    "render": "npx remotion render",
+    "dev": "npx remotion studio",
+    "start": "npx remotion studio"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.441",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.441"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.1",
+    "typescript": "5.3.3"
+  },
+  "license": "MIT"
+}
