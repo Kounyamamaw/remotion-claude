@@ -7,6 +7,7 @@
     "build": "npx remotion render",
     "deploy": "npx remotion lambda deploy",
     "render": "npx remotion render",
+    "dev": "npx remotion studio",
     "start": "npx remotion studio"
   },
   "dependencies": {
